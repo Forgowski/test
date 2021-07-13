@@ -1,23 +1,7 @@
 ﻿  SkillTest.cpp
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(18,18): error C2872: 'Window': ambiguous symbol
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
-C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(5,15): error C2872: 'Window': ambiguous symbol
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(18,18): message : could be 'Window Window'
-C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(7,16): error C2872: 'Window': ambiguous symbol
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(18,18): message : could be 'Window Window'
-C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(7,29): error C2065: 'e': undeclared identifier
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(9,8): error C2065: 'e': undeclared identifier
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(9,78): error C2065: 'W': undeclared identifier
-  Source.cpp
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(18,18): error C2872: 'Window': ambiguous symbol
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
-C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\Source.cpp(5,8): error C2872: 'Window': ambiguous symbol
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
-C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\Source.cpp(14,13): error C2872: 'Window': ambiguous symbol
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
-C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
+  Generating code
+  0 of 9 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SkillTest.vcxproj -> E:\cpp zadania\c++\SkillTest\x64\Release\SkillTest.exe

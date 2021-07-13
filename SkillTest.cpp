@@ -1,12 +1,13 @@
 #include "Header.h"
+
 int main()
 {
-
-	while (Window.W.isOpen())
+	
+	while (MYW.W.isOpen())
 	{
-		while (Window.W.pollEvent(e))
+		while (MYW.W.pollEvent(MYW.e))
 		{
-			if (e.type == Event::Closed || (Keyboard::isKeyPressed(Keyboard::Escape)))W.close();
+			if (MYW.e.type == Event::Closed || (Keyboard::isKeyPressed(Keyboard::Escape)))MYW.W.close();
 		}
 	}
 

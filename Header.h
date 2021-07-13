@@ -1,18 +1,24 @@
 #pragma once
+#ifndef HED_INCLUDED
+#define HED_INCLUDED
+
+#include <functional>
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <iostream>
 using namespace std;
 using namespace sf;
-class Window
+class App
 {
 public:
-	Window();
+	App();
+	RenderWindow W;
 	int height = 800;
 	int width = 1000;
-	RenderWindow W;
 	Event e{};
 	void update();
 
-
-}; inline Window Window;
+	
+};
+inline App MYW;
+#endif 

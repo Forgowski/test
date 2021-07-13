@@ -2,7 +2,7 @@
 
 
 
-	Window::Window()
+	App::App()
 	{
 		
 		W.create(VideoMode(width, height, 32), "Test");
@@ -11,8 +11,4 @@
 		W.setPosition(Vector2i(400, 350));
 	};
 
-	void Window::update()
-	{
-
-	}
 
