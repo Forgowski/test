@@ -1,16 +1,23 @@
 ﻿  SkillTest.cpp
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(4,9): error C2872: 'Window': ambiguous symbol
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(18,18): error C2872: 'Window': ambiguous symbol
 E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
 C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(6,11): error C2039: 'isOpen': is not a member of 'Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7): message : see declaration of 'Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(8,12): error C2039: 'pollEvent': is not a member of 'Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7): message : see declaration of 'Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(10,80): error C2039: 'close': is not a member of 'Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7): message : see declaration of 'Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(5,15): error C2872: 'Window': ambiguous symbol
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(18,18): message : could be 'Window Window'
+C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(7,16): error C2872: 'Window': ambiguous symbol
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(18,18): message : could be 'Window Window'
+C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(7,29): error C2065: 'e': undeclared identifier
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(9,8): error C2065: 'e': undeclared identifier
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(9,78): error C2065: 'W': undeclared identifier
   Source.cpp
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(18,18): error C2872: 'Window': ambiguous symbol
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
+C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
 E:\cpp zadania\c++\SkillTest\SkillTest\Source.cpp(5,8): error C2872: 'Window': ambiguous symbol
 E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
 C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
-E:\cpp zadania\c++\SkillTest\SkillTest\Source.cpp(6,2): error C2084: function 'Window::Window(void)' already has a body
-E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(10): message : see previous definition of '{ctor}'
+E:\cpp zadania\c++\SkillTest\SkillTest\Source.cpp(14,13): error C2872: 'Window': ambiguous symbol
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
+C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
