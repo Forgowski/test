@@ -16,7 +16,8 @@ public:
 	int height = 800;
 	int width = 1000;
 	Event e{};
-	void update();
+	void clean();
+	bool checkclose();
 
 	
 };
