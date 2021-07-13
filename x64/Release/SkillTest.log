@@ -1,7 +1,16 @@
 ﻿  SkillTest.cpp
-  Generating code
-  1 of 5 functions (20.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  SkillTest.vcxproj -> E:\cpp zadania\c++\SkillTest\x64\Release\SkillTest.exe
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(4,9): error C2872: 'Window': ambiguous symbol
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
+C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(6,11): error C2039: 'isOpen': is not a member of 'Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7): message : see declaration of 'Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(8,12): error C2039: 'pollEvent': is not a member of 'Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7): message : see declaration of 'Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\SkillTest.cpp(10,80): error C2039: 'close': is not a member of 'Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7): message : see declaration of 'Window'
+  Source.cpp
+E:\cpp zadania\c++\SkillTest\SkillTest\Source.cpp(5,8): error C2872: 'Window': ambiguous symbol
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(7,7): message : could be 'Window'
+C:\Users\krzys\Desktop\SFML-2.5.1\include\SFML\Graphics\Texture.hpp(42,7): message : or       'sf::Window'
+E:\cpp zadania\c++\SkillTest\SkillTest\Source.cpp(6,2): error C2084: function 'Window::Window(void)' already has a body
+E:\cpp zadania\c++\SkillTest\SkillTest\Header.h(10): message : see previous definition of '{ctor}'
